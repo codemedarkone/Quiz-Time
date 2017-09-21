@@ -12,6 +12,8 @@
 		83F42DC61F744A9600365011 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F42DC41F744A9600365011 /* Main.storyboard */; };
 		83F42DC81F744A9600365011 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83F42DC71F744A9600365011 /* Assets.xcassets */; };
 		83F42DCB1F744A9600365011 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83F42DC91F744A9600365011 /* LaunchScreen.storyboard */; };
+		83F42DD31F744AD700365011 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F42DD21F744AD700365011 /* QuizModel.swift */; };
+		83F42DD51F744AF300365011 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F42DD41F744AF300365011 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		83F42DC71F744A9600365011 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83F42DCA1F744A9600365011 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83F42DCC1F744A9600365011 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83F42DD21F744AD700365011 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		83F42DD41F744AF300365011 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				83F42DC01F744A9600365011 /* AppDelegate.swift */,
 				83F42DC21F744A9600365011 /* ViewController.swift */,
+				83F42DD21F744AD700365011 /* QuizModel.swift */,
+				83F42DD41F744AF300365011 /* Question.swift */,
 				83F42DC41F744A9600365011 /* Main.storyboard */,
 				83F42DC71F744A9600365011 /* Assets.xcassets */,
 				83F42DC91F744A9600365011 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				83F42DC31F744A9600365011 /* ViewController.swift in Sources */,
+				83F42DD51F744AF300365011 /* Question.swift in Sources */,
+				83F42DD31F744AD700365011 /* QuizModel.swift in Sources */,
 				83F42DC11F744A9600365011 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
